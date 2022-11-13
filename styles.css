@@ -4,10 +4,16 @@ body{
     text-color:
 }
 
+.assignments{
+    display:flex;
+    flex-wrap:wrap;
+}
+
 .assignment{
-    display: flex;
+    width:22%;
     padding: 10px;
     margin: 10px;
+    padding:20px 10px;
     background:#F5FFFA;
     border-radius: 5px;
 }
@@ -16,6 +22,9 @@ body{
     width: 200px;
     margin: 10px;
     border: 2px solid #FFF;
+    display:block;
+    margin:auto;
+
 }
 .assignment img:hover{
     border: 2px solid #778899;
@@ -23,6 +32,10 @@ body{
 
 h1 {
     color: #9400D3;
+    text-align:center;
+}
+
+h2{
     text-align:center;
 }
 
